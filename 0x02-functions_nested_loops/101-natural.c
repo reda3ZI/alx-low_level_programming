@@ -7,16 +7,16 @@
   */
 int main(void)
 {
-	int n;
+	int i;
 	int sum;
 
 	sum = 0;
 
-	for (n = 0; n < 10; n++)
+	for (i = 0; i < 10; i++)
 	{
-		if ((n % 3 == 0) || (n % 5 == 0))
+		if ((i % 3 == 0) || (i % 5 == 0))
 		{
-			sum = sum + n;
+			sum = sum + i;
 		}
 	}
 	printf("%d\n", sum);

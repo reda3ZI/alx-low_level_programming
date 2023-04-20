@@ -4,8 +4,7 @@
  * main - program that perfroms simple operations
  * @argc: The number of arguments
  * @argv: array of pointers to the arguments
- *
- * Return: Always 0 (Success)
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
